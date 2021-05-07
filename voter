@@ -1,0 +1,20 @@
+//MY THIRD PROGRAM WITH MY CAPTAIN AADHAR BHATNAGAR SIR
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a;
+    cout << "Please enter your Age: ";
+    cin>>a;
+    if(a>=18)
+    {
+        cout<<"You are eligible to vote.";
+    }
+    else
+    {
+        cout<<"\nYou have still "<<18-a<<" years left to become eligible for voting";
+    }
+
+    return 0;
+}
